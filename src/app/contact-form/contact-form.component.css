@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  h1{
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+  .formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4b4b4;
+    padding: 5rem 3rem;
+    border-radius: 0.8rem;
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      label{
+        font-size: 1.5rem;
+      }
+      .formInput{
+        width: 20rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        font-size: larger;
+      }
+    }
+  }
+}
+.redBorder{
+  border: solid 2px crimson;
+}
+.error{
+  background-color: tomato;
+  border: solid 2px crimson;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+.bigTextInput{
+  width: 40rem;
+  padding: 0.5rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  font-size: larger;
+}
+
+.submit{
+  background-color: rgb(35, 210, 35);
+}

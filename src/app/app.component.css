@@ -1,0 +1,48 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.3rem;
+  background-color: gray;
+  position: fixed;
+  .navContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    ul{
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      list-style-type: none;
+      li{
+        cursor: pointer;
+        .active{
+          color: rgb(0, 249, 0);
+        }
+        .active:hover{
+          color: rgb(0, 249, 0);
+        }
+        a{
+          color: white;
+          text-decoration: none;
+        }
+        a:hover{
+          color: rgb(221, 193, 253);
+        }
+      }
+    }
+  }
+  .cart{
+    display: flex;
+    align-items: center;
+    margin-right: 0.7rem;
+  }
+}
+.mainContainer{
+  width: 100%;
+  margin-top: 60px;
+
+}

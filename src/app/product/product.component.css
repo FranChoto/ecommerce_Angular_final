@@ -1,0 +1,35 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #b4b4b4;
+    padding: 5rem;
+    border-radius: 0.8rem;
+  }
+}
+.buyButton{
+  background-color: #70ef4d;
+  border: none;
+  font-size: larger;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.backButton{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
